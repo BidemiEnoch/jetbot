@@ -1,0 +1,17 @@
+{
+       "name": "jetbot",
+       "version": "0.1.0",
+       "private": true,
+       "scripts": {
+              "dev": "nodemon main.js",
+              "prettify": "prettier --write **/*.{js,json}"
+       },
+       "dependencies": {
+              "discord.js": "^12.5.0",
+              "axios": "^0.21.0"
+       },
+       "devDependencies": {
+              "prettier": "^2.2.1",
+              "nodemon": "^2.0.7"
+       }
+}
